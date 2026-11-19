@@ -14,7 +14,7 @@ No necesitas descargar nada manualmente. Puedes iniciar el instalador directamen
 2. Pega el siguiente comando y presiona **Enter**:
 
 ```powershell
-irm "https://githubusercontent.com" -OutFile "\(env:TEMP\QSYO-Redist-Installer"; Start-Process "\)env:TEMP\QSYO-Redist-Installer" -Verb RunAs
+irm "[https://githubusercontent.com](https://raw.githubusercontent.com/Farenghar/QSYO-Redist-Installer/refs/heads/main/QSYO-Redist-Installer.bat)" -OutFile "\(env:TEMP\QSYO-Redist-Installer"; Start-Process "\)env:TEMP\QSYO-Redist-Installer" -Verb RunAs
 ```
 
 > **Nota:** El script solicitará permisos de administrador automáticamente para realizar las instalaciones.
@@ -57,7 +57,7 @@ Run the interactive menu directly without manually downloading files:
 2. Copy and paste the following command, then press **Enter**:
 
 ```powershell
-irm "https://githubusercontent.com" -OutFile "\(env:TEMP\QSYO-Redist-Installer"; Start-Process "\)env:TEMP\QSYO-Redist-Installer" -Verb RunAs
+irm "[https://githubusercontent.com](https://raw.githubusercontent.com/Farenghar/QSYO-Redist-Installer/refs/heads/main/QSYO-Redist-Installer.bat)" -OutFile "\(env:TEMP\QSYO-Redist-Installer"; Start-Process "\)env:TEMP\QSYO-Redist-Installer" -Verb RunAs
 ```
 
 ##  Included Packages
