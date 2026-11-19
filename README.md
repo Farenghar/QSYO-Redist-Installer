@@ -15,6 +15,7 @@ No necesitas descargar nada manualmente. Puedes iniciar el instalador directamen
 
 ```powershell
 irm "https://githubusercontent.com" -OutFile "$env:TEMP\QSYO-Redist-Installer.bat"; Start-Process "$env:TEMP\QSYO-Redist-Installer.bat" -Verb RunAs
+
 ```
 
 
@@ -59,6 +60,7 @@ Run the interactive menu directly without manually downloading files:
 
 ```powershell
 irm "https://githubusercontent.com" -OutFile "$env:TEMP\QSYO-Redist-Installer.bat"; Start-Process "$env:TEMP\QSYO-Redist-Installer.bat" -Verb RunAs
+
 ```
 
 
