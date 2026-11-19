@@ -1,8 +1,4 @@
-# 🛠️ QSYO Redist Installer
-
-![Windows](https://shields.io)
-![Batch](https://shields.io)
-![Winget](https://shields.io)
+#  QSYO Redist Installer
 
 *[English version below](#-english-version)*
 
@@ -10,7 +6,7 @@
 
 ---
 
-## ⚡ Ejecución Rápida (Desde PowerShell)
+##  Ejecución Rápida (Desde PowerShell)
 
 No necesitas descargar nada manualmente. Puedes iniciar el instalador directamente desde la terminal:
 
@@ -25,7 +21,7 @@ irm "https://githubusercontent.com" -OutFile "\(env:TEMP\QSYO-Redist.bat"; Start
 
 ---
 
-## 📦 Paquetes Incluidos
+##  Paquetes Incluidos
 
 El menú interactivo te permite instalar **todo con un solo clic (Opción 1)** o elegir cada paquete por separado:
 
@@ -41,7 +37,7 @@ El menú interactivo te permite instalar **todo con un solo clic (Opción 1)** o
 
 ---
 
-## 🛡️ Seguridad y Requisitos
+##  Seguridad y Requisitos
 
 * **100% Oficial y Seguro:** No contiene archivos `.exe` compilados ni enlaces de terceros; todo se descarga directamente desde los servidores oficiales de Microsoft y Winget.
 * **Requisitos:** Windows 10 (1809+) o Windows 11 con `winget` (Instalador de aplicación) disponible y conexión a Internet.
@@ -49,11 +45,11 @@ El menú interactivo te permite instalar **todo con un solo clic (Opción 1)** o
 ---
 ---
 
-# 🌍 English Version
+#  English Version
 
 **QSYO Redist Installer** is an interactive Windows batch tool to easily download and silently install official redistributable packages (Visual C++, DirectX, .NET, XNA, OpenAL, and Java) via **Winget**, fixing missing `.dll` errors when running video games and applications.
 
-## ⚡ Quick Run (PowerShell)
+##  Quick Run (PowerShell)
 
 Run the interactive menu directly without manually downloading files:
 
@@ -64,7 +60,7 @@ Run the interactive menu directly without manually downloading files:
 irm "https://githubusercontent.com" -OutFile "\(env:TEMP\QSYO-Redist.bat"; Start-Process "\)env:TEMP\QSYO-Redist.bat" -Verb RunAs
 ```
 
-## 📦 Included Packages
+##  Included Packages
 
 * **[1] Install ALL**: Recommended for fresh Windows installations.
 * **[2] Visual C++ Redistributables (2005 - 2022)**: Both `x86` and `x64` architectures.
