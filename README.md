@@ -40,10 +40,13 @@ The interactive menu lets you install **everything with a single keystroke (Opti
 * **100% Official & Safe:** Contains no compiled `.exe` files or third-party links; everything is downloaded directly from official Microsoft and Winget repositories.
 * **Requirements:** Windows 10 (1809+) or Windows 11 with `winget` (App Installer) available and an active Internet connection.
 
+---
+
+#  Spanish
+
 **QSYO Redist Installer** es una herramienta interactiva para Windows que descarga e instala de forma silenciosa y oficial los paquetes redistribuibles esenciales (Visual C++, DirectX, .NET, XNA, OpenAL y Java) mediante **Winget**, solucionando errores comunes de archivos `.dll` al ejecutar videojuegos y programas.
 
 ---
-#  Spanish
 
 ## Ejecución Rápida (Desde PowerShell)
 
