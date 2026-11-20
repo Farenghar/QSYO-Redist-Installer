@@ -1,6 +1,5 @@
 #  QSYO Redist Installer
 
-*[English version below](#-english-version)*
 
 **QSYO Redist Installer** es una herramienta interactiva para Windows que descarga e instala de forma silenciosa y oficial los paquetes redistribuibles esenciales (Visual C++, DirectX, .NET, XNA, OpenAL y Java) mediante **Winget**, solucionando errores comunes de archivos `.dll` al ejecutar videojuegos y programas.
 
